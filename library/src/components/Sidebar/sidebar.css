@@ -1,0 +1,27 @@
+.btn {
+    /* background-color: #1876d2; */
+    color: black;
+    padding: 0.4rem 1rem;
+    border-radius: 0.2rem;
+    display: flex;
+    align-items: center;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.selected-btn {
+    background-color: #1876d2;
+    color: white;
+}
+
+.hover-btn:hover {
+    background-color: rgb(214, 214, 214);
+    /* background-color: #1360ad; */
+}
+
+.btn .btn-icon {
+    margin-right: 0.4rem;
+}

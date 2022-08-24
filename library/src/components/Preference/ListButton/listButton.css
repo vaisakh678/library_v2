@@ -1,0 +1,20 @@
+.list-btn {
+    transition: 0.2s;
+}
+
+.selected {
+    background-color: #2e88d1;
+    border-left: 0.3rem #1360ad solid;
+    cursor: pointer;
+    color: white;
+}
+
+.not-selected {
+    color: black;
+}
+
+.not-selected:hover {
+    background-color: rgb(179, 179, 179);
+    color: black;
+    cursor: pointer;
+}
